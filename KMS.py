@@ -154,13 +154,13 @@ There are server lists on the internet. But there is no guarantee that these are
 
         elif button == "off_get_path":
             start_dir = os.environ['PROGRAMFILES']
-            path = app.openBox(title="Open OSPP.VBS", dirName=start_dir, fileTypes=[('Script', '*.VBS'), ('Script', '*.vbs')], asFile=False, parent=None)
+            path = self.app.openBox(title="Open OSPP.VBS", dirName=start_dir, fileTypes=[('Script', '*.VBS'), ('Script', '*.vbs')], asFile=False, parent=None)
             
             if "OSPP" not in path:
                 pass
                 #error
             else:
-                app.setEntry("e_off_path", path, callFunction=False)
+                self.app.setEntry("e_off_path", path, callFunction=False)
 
         elif button == "off_activate":
             self.activateOffice()
