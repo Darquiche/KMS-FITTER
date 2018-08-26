@@ -18,6 +18,8 @@ The tool will set your GVLK and the host address.
 If you have installed a product with GVLK and pointed it to working KMS server, activation occurs automatically.
 But you can force it.
 
+![Windows Activation Gif](https://i.imgur.com/RXQpjP6.gif)
+
 ### Office 2016 Activation
 
 _**You must execute the tool with admin rights!**_
@@ -45,6 +47,8 @@ You have to find GVLK. It's available on Microsoft Technet.
 
 [Microsoft Technet - Office 2010 GVLK](https://docs.microsoft.com/en-us/previous-versions/office/office-2010/ee624355(v=office.14)#section2_3)  
 [Microsoft Technet - Office 2013 GVLK](https://technet.microsoft.com/en-us/library/dn385360.aspx) 
+
+![Office Activation Gif](https://i.imgur.com/hSh8Prh.gif)
 
 ### Extras
 
