@@ -36,6 +36,7 @@ class Gui:
         app.setTitle("{t} by {a} | v{v}".format(t=self.title, a=self.author, v=self.version))
         app.setSize(self.width + "x" + self.height)
         app.setResizable(canResize=self.isResizable)
+        app.setIcon("favicon.ico")
         app.setStopFunction(self.onExit)
         app.addStatusbar(fields=1)
         app.setStatusbar("", 0)
@@ -117,7 +118,7 @@ There are server lists on the internet. But there is no guarantee that these are
     def start(self):
 
         # Creates a UI
-        app = gui(showIcon=False)
+        app = gui(showIcon=True)
 
         self.getWinGVLK()
         self.getOffGVLK()
